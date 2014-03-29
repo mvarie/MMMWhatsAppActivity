@@ -1,10 +1,14 @@
 
-
 #import "MMMWhatsAppActivity.h"
+
+#if !__has_feature(objc_arc)
+#error This file must be compiled with ARC. Either turn on ARC for the project or use -fobjc-arc flag
+#endif
 
 #define MMM_WHATSAPP_URL @"whatsapp://"
 #define MMM_WHATSAPP_IMAGEFILENAME @"wa.wai"
 #define MMM_WHATSAPP_IMAGEUTI @"net.whatsapp.image"
+
 
 @interface MMMWhatsAppActivity()
 @property (nonatomic,strong) NSString *text;
