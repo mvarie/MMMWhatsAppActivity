@@ -5,5 +5,5 @@ MMMWhatsAppActivity is a UIActivity subclass providing WhatsApp support for text
 
 
 ## Installation
-* Drag `MMMWhatsAppActivity.h`, `MMMWhatsAppActivity.m` and `MMMWhatsAppActivity@2x.png` files into your ARC-enabled project.
+* Drag the `MMMWhatsAppActivity.h`, `MMMWhatsAppActivity.m` and `MMMWhatsAppActivity@2x.png` files into your ARC-enabled project.
 
